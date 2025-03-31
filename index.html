@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACRO</title>
+
+  <!--파비콘-->
+  <link rel="icon" href="images/favicon-16x16.png" type="image/x-icon">
+
+  <!-- font -->
+  <link rel="stylesheet" as="style" crossorigin
+  href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- js -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/common.js"></script>
+
+</head>
+<body>
+
+    <div id="wrap">
+
+      <header>
+        <div class="inner">
+
+          <h1><a href="#"><img src="images/logo_w.svg" alt="ACRO"></a></h1>
+
+          <nav>
+            <ul class="gnb">
+              <li>
+                  <a href="#">브랜드</a>
+                  <ul class="depth2">
+                      <li><a href="#">브랜드 스토리</a></li>
+                      <li><a href="#">브랜드 밸류</a></li>
+                      <li><a href="#">디자인 스토리</a></li>
+                  </ul>
+              </li>
+              <li>
+                  <a href="#">단지정보</a>
+                  <ul class="depth2">
+                      <li><a href="#">분양단지</a></li>
+                      <li><a href="#">공사단지</a></li>
+                  </ul>
+              </li>
+              <li>
+                  <a href="#">갤러리</a>
+                  <ul class="depth2">
+                      <li><a href="#">드림하우스</a></li>
+                      <li><a href="#">대관안내</a></li>
+                  </ul>
+              </li>
+              <li>
+                  <a href="#">새소식</a>
+                  <ul class="depth2">
+                      <li><a href="#">라이브러리</a></li>
+                      <li><a href="#">뉴스</a></li>
+                  </ul>
+              </li>
+            </ul>
+
+            <button class="ham">메뉴보기</button>
+
+            <div class="dim"></div>
+
+            <div class="mgnb_wrap">
+              <ul class="mgnb">
+                  <li><a href="#">브랜드<span>Brand</span></a></li>
+                  <li><a href="#">단지정보<span>Landmark</span></a></li>
+                  <li><a href="#">갤러리<span>Gallery</span></a></li>
+                  <li><a href="#">새소식<span>News</span></a></li>
+              </ul>
+              <button class="mgnb_close">메뉴닫기</button>
+            </div>
+          </nav>
+
+          <ul class="util">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">고객센터</a></li>
+            <li class="btn_search"><img src="images/btn_search.svg" alt="검색"></li>
+          </ul>
+
+        </div><!--.inner-->
+
+        <div class="search">
+          <form class="search_box">
+              <div class="input_box">
+                  <input type="text" placeholder="검색어를 입력해 주세요">
+                  <button type="button" class="search_btn">검색</button>
+              </div>
+              <div class="tag">
+                  <strong>추천검색어</strong>
+                  <a href="#">#아크로 서울포레스트</a>
+                  <a href="#">#아크로 리버하임</a>
+                  <a href="#">#아크로 리버뷰</a>
+              </div>
+          </form>
+          <div class="search_close">검색창 닫기</div>
+        </div>
+
+      </header>
+
+      <main>
+
+        <section class="visual">
+          <div class="swiper visual_list">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <img src="images/visual_01.jpg" alt="">
+                    <div class="visual_txt">
+                        <strong>the only one</strong>
+                        <h3>변하지 않는 랜드마크가 되는 곳</h3>
+                        <p>가장 앞선, 가장 독보적인 컬렉션의 가치를 소유하세요.</p>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <img src="images/visual_02.jpg" alt="">
+                    <div class="visual_txt">
+                        <strong>the only one</strong>
+                        <h3>하이엔드 주거문화의 기준</h3>
+                        <p>상위 0.1%들이 선택한 하이엔드 컬렉션의 완성</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </section><!--.visual-->
+
+        <section class="landmark">
+          <h2>단지정보</h2>
+          <p>시간이 흘러도 변하지 않는 희소가치를 지닌 <br class="m_br">아크로의 랜드마크를 소개합니다.</p>
+
+          <div class="inner">
+            <div class="swiper landmark_list">
+              <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                      <a href="#">
+                          <img src="images/landmark_01.jpg" alt="아크로 서울포레스트">
+                          <span>아크로 서울포레스트</span>
+                      </a>
+                  </li>
+
+                  <li class="swiper-slide">
+                      <a href="#">
+                          <img src="images/landmark_02.jpg" alt="아크로 리버하임">
+                          <span>아크로 리버하임</span>
+                      </a>
+                  </li>
+
+                  <li class="swiper-slide">
+                      <a href="#">
+                          <img src="images/landmark_03.jpg" alt="아크로 리버뷰">
+                          <span>아크로 리버뷰</span>
+                      </a>
+                  </li>
+
+                  <li class="swiper-slide">
+                      <a href="#">
+                          <img src="images/landmark_01.jpg" alt="아크로 서울포레스트">
+                          <span>아크로 서울포레스트</span>
+                      </a>
+                  </li>
+
+                  <li class="swiper-slide">
+                      <a href="#">
+                          <img src="images/landmark_02.jpg" alt="아크로 리버하임">
+                          <span>아크로 리버하임</span>
+                      </a>
+                  </li>
+
+                  <li class="swiper-slide">
+                      <a href="#">
+                          <img src="images/landmark_03.jpg" alt="아크로 리버뷰">
+                          <span>아크로 리버뷰</span>
+                      </a>
+                  </li>
+              </ul>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div><!-- landmark_list -->
+
+            <div class="btn_more"><a href="#">더보기</a></div>
+
+          </div><!--.inner-->
+        </section><!--.landmark-->
+
+        <section class="brand">
+          <div class="inner">
+            <div class="brand_txt">
+              <div class="swiper brand_txt_list">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div>
+                            <h3>최상의 입지</h3>
+                            <p>최고의 입지와 조망을 자랑하며 유일무이한<br>
+                                세계적 랜드마크가 되는 곳</p>
+                            <div class="btn_more"><a href="#">자세히보기</a></div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div>
+                            <h3>기술 혁신</h3>
+                            <p>가장 앞선 기술이 집약된 스마트한 시스템과<br>
+                                맞춤화된 특화 기술 적용</p>
+                            <div class="btn_more"><a href="#">자세히보기</a></div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div>
+                            <h3>독보적인 디자인</h3>
+                            <p>누구나 부러워할 만한 독보적인 디자인으로<br>
+                                일상이 작품이 되는 스타일</p>
+                            <div class="btn_more"><a href="#">자세히보기</a></div>
+                        </div>
+                    </li>
+                </ul>
+              </div>
+            </div><!--.brand_txt-->
+            <div class="brand_img">
+              <div class="swiper brand_img_list">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><img src="images/brand_01.jpg" alt="사진1"></li>
+                    <li class="swiper-slide"><img src="images/brand_02.jpg" alt="사진2"></li>
+                    <li class="swiper-slide"><img src="images/brand_03.jpg" alt="사진3"></li>
+                </ul>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div><!--.brand_img-->
+          </div><!--.inner-->
+        </section>
+
+        <section class="gallery">
+          <div class="inner">
+              <h2>아크로 갤러리</h2>
+              <p>취향과 안목을 지닌 라이프스타일 컬렉터에게 <br class="m_br">새로운 라이프스타일을 제시합니다.</p>
+
+              <ul>
+                  <li class="active">
+                      <h3>Club ACRO</h3>
+                      <div>소유만으로도 하나의 명예가 되는 <br>
+                          아크로만의 하이 소사이어티 멤버십</div>
+                      <div class="btn_more"><a href="#">자세히보기</a></div>
+                  </li>
+
+                  <li>
+                      <h3>Beyond Compare</h3>
+                      <div>자부심을 느낄 수 있는 압도적인 아름다움, <br>
+                          비교할 수 없는 차별화된 주거 공간</div>
+                      <div class="btn_more"><a href="#">자세히보기</a></div>
+                  </li>
+
+                  <li>
+                      <h3>Park Edition</h3>
+                      <div>남다른 취향과 안목을 가진 컬렉터의 <br>
+                          라이프스타일을 완성하는 공간</div>
+                      <div class="btn_more"><a href="#">자세히보기</a></div>
+                  </li>
+              </ul>
+          </div>
+        </section><!--.gallery-->
+
+      </main>
+
+      <footer id="footer">
+        <ul class="footer_link">
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이메일무단수집거부</a></li>
+        </ul>
+        <address><span>사업자명 : 디엘이앤씨㈜</span><span>사업자등록증 : 676-87-01904</span><span>대표자 : 마창민</span></address>
+        <p class="copy">&copy; DL E&amp;C. All rights Reserved.</p>
+        <div class="footer_logo"><img src="images/footer_logo.svg" alt="ACRO"></div>
+
+        <a href="#" class="gotop">맨 위로가기</a>
+
+      </footer>
+
+
+
+    </div><!--#wrap-->
+</body>
+</html>
